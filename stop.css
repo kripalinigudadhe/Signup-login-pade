@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 177, 215);
+    padding: 30px;
+    height: 800px;
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+    body {
+        background-color: #d78cae;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       
+    }
+    .login-container {
+        background: rgb(248, 245, 245);
+        border-radius: 15px;
+        border: 1px solid black;
+        box-shadow: 0 5px 15px rgba(39, 33, 33, 0.1);
+        width: 350px;
+        padding: 30px;
+        text-align: center;
+    }
+    h1 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        color: #2c0b0b;
+    }
+    .input-field {
+        width: 97%;
+        padding: 12px;
+        margin: 10px 0;
+        color: rgb(34, 28, 28);
+        border: 2px solid #2a2323;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    .input-field:focus {
+        border-color: #55054d;
+        outline: none;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #1dcb2c;
+        color: white;
+        border: 1px solid;
+        margin: 10px 0;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    .forgot-password {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .forgot-password a {
+        font-size: 4vmin;
+        text-decoration: none;
+        color: #300765;
+    }
+    .forgot-password a:hover {
+        text-decoration: underline;
+    }
+    .signup-link {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .signup-link a {
+        text-decoration: none;
+        font-size: 4vmin;
+        margin-left: 1rem;
+        color:#3317e9;
+    }
+    .signup-link a:hover {
+        text-decoration: underline;
+    }
+
+
+

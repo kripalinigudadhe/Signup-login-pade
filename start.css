@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 177, 215);
+    padding: 30px;
+    height: 800px;
+    width: 600px;
+}
+
+    body {
+        background-color:#d78cae;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .signup-container {
+        background : white;
+        border-radius: 15px;
+        border: 1px solid black;
+        box-shadow: 0 5px 15px rgba(39, 33, 33, 0.1);
+        width: 350px;
+        padding: 30px;
+        text-align: center;
+    }
+    h1 {
+        margin-bottom: 20px;
+        font-size: 40px;
+        color: #04082f;
+    }
+    h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #1d1796;
+    }
+    .input-field {
+        width: 97%;
+        padding: 12px;
+        margin: 10px 0;
+        color: rgb(34, 28, 28);
+        border: 2px solid #2a2323;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    .input-field:focus {
+        border-color: #55054d;
+        outline: none;
+    }
+    #otp{
+        margin-left: 1rem;
+        background-color: #2822e3;
+        color: white;
+        width: 20%;
+    }
+    #submit {
+        width: 100%;
+        padding: 12px;
+        background-color: #1dcb2c;
+        color: white;
+        border: 1px solid;
+        margin: 10px 0;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0f7e38;
+    }
+    .login-link {
+        margin-top: 20px;
+        font-size: 18px;
+        margin-bottom: 1rem;;
+    }
+    .login-link a {
+        text-decoration: dotted;
+        margin-left: 1rem;
+        font-size: 25px;;
+        color: #3317e9;
+    }
+    .login-link a:hover {
+        text-decoration: underline;
+    }
+    a{
+        color: #090c29;
+        font-size: 3vmin;
+    }
